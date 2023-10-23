@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+moviepy = "==1.0.3"
+scipy = "==1.10.1"
+
+[requires]
+python_version = "3.11.3"
